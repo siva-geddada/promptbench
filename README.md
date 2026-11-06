@@ -1,5 +1,7 @@
 # PromptBench
 
+[GitHub](https://github.com/siva-geddada/promptbench) · [npm](https://www.npmjs.com/package/promptbench) · [Report an issue](https://github.com/siva-geddada/promptbench/issues)
+
 **Automated tests for AI prompts.** Write your test cases once, then run them on every prompt or model change. You get a pass rate, a side-by-side diff, and a check that can stop a bad prompt from reaching your users.
 
 PromptBench is a command-line tool (CLI). It runs on your machine, and works with local models through Ollama, or with any OpenAI-compatible API.

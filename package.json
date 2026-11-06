@@ -1,6 +1,6 @@
 {
   "name": "promptbench",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A local eval runner for LLM features. Write test cases, grade with code or a model, and get a pass rate in CI.",
   "type": "module",
   "license": "MIT",

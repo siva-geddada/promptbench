@@ -177,9 +177,7 @@ ollama pull qwen3:8b
 
 Any current model works. Pick one that suits your machine.
 
-### Option 1: from npm
-
-Use this once the package is published to npm:
+### Option 1: from npm (recommended)
 
 ```bash
 npm install -g promptbench

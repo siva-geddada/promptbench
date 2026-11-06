@@ -1,0 +1,51 @@
+{
+  "name": "promptbench",
+  "version": "1.0.0",
+  "description": "A local eval runner for LLM features. Write test cases, grade with code or a model, and get a pass rate in CI.",
+  "type": "module",
+  "license": "MIT",
+  "bin": {
+    "promptbench": "dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "prepack": "npm run build"
+  },
+  "dependencies": {
+    "yaml": "^2.9.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siva-geddada/promptbench.git"
+  },
+  "homepage": "https://github.com/siva-geddada/promptbench#readme",
+  "bugs": {
+    "url": "https://github.com/siva-geddada/promptbench/issues"
+  },
+  "author": "Siveswararao Geddada",
+  "keywords": [
+    "llm",
+    "eval",
+    "evals",
+    "prompt",
+    "prompt-testing",
+    "ai",
+    "cli",
+    "ollama",
+    "testing"
+  ]
+}
